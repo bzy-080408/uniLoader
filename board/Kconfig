@@ -35,6 +35,13 @@ menu "Device Support"
 		help
 		  Say Y if you want to include support for Huawei Mediapad T5
 
+	config HUAWEI_MHA
+		bool "Support for Huawei Mate 9"
+		default n
+		depends on HI3660
+		help
+		  Say Y if you want to include support for Huawei Mate 9
+
 	config INFINIX_X6710
 		bool "Support for Infinix Note 30 VIP"
 		default n
@@ -314,10 +321,12 @@ menu "Device Specific Addresses"
 
 	config TEXT_BASE
 		hex "UniLoader Text Base"
+		default 0x10000000 if HUAWEI_MHA
 		default 0x0
 
 	config PAYLOAD_ENTRY
 		hex "Payload Entry Address"
+		default 0x00080000 if HUAWEI_MHA
 		default 0x50000000 if NOTHING_TETRIS
 		default 0x050000000 if SAMSUNG_J4LTE
 		default 0x60000000 if VOLLA_ALGIZ
@@ -325,6 +334,7 @@ menu "Device Specific Addresses"
 
 	config RAMDISK_ENTRY
 		hex "Ramdisk Entry Address"
+		default 0x07C00000 if HUAWEI_MHA
 		default 0x40000000 if NOTHING_TETRIS
 		default 0x51100000 if VOLLA_ALGIZ
 		default 0x48000000 if XIAOMI_BEGONIA

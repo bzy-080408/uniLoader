@@ -1,0 +1,142 @@
+00000000-1cffffff : System RAM
+  00080000-01dfffff : Kernel code
+  02200000-02e5ffff : Kernel data
+20a00000-20afffff : System RAM
+20c00000-7fffffff : System RAM
+8a500000-8b5fffff : System RAM
+8bb00000-dfffffff : System RAM
+e804b000-e804bfff : 
+e82c0000-e82c3fff : 
+e896c000-e896c1ef : pinctrl-single
+e896c800-e896c83f : pinctrl-single
+e896c840-e896c86b : pinctrl-sec
+e896c870-e896c9ff : pinctrl-single
+e8a06000-e8a06fff : /amba/watchdog0
+  e8a06000-e8a06fff : /amba/watchdog0
+e8a0b000-e8a0bfff : /amba/gpio@e8a0b000
+  e8a0b000-e8a0bfff : /amba/gpio@e8a0b000
+e8a0c000-e8a0cfff : /amba/gpio@e8a0c000
+  e8a0c000-e8a0cfff : /amba/gpio@e8a0c000
+e8a0d000-e8a0dfff : /amba/gpio@e8a0d000
+  e8a0d000-e8a0dfff : /amba/gpio@e8a0d000
+e8a0e000-e8a0efff : /amba/gpio@e8a0e000
+  e8a0e000-e8a0efff : /amba/gpio@e8a0e000
+e8a0f000-e8a0ffff : /amba/gpio@e8a0f000
+  e8a0f000-e8a0ffff : /amba/gpio@e8a0f000
+e8a10000-e8a10fff : /amba/gpio@e8a10000
+  e8a10000-e8a10fff : /amba/gpio@e8a10000
+e8a11000-e8a11fff : /amba/gpio@e8a11000
+  e8a11000-e8a11fff : /amba/gpio@e8a11000
+e8a12000-e8a12fff : /amba/gpio@e8a12000
+  e8a12000-e8a12fff : /amba/gpio@e8a12000
+e8a13000-e8a13fff : /amba/gpio@e8a13000
+  e8a13000-e8a13fff : /amba/gpio@e8a13000
+e8a14000-e8a14fff : /amba/gpio@e8a14000
+  e8a14000-e8a14fff : /amba/gpio@e8a14000
+e8a15000-e8a15fff : /amba/gpio@e8a15000
+  e8a15000-e8a15fff : /amba/gpio@e8a15000
+e8a16000-e8a16fff : /amba/gpio@e8a16000
+  e8a16000-e8a16fff : /amba/gpio@e8a16000
+e8a17000-e8a17fff : /amba/gpio@e8a17000
+  e8a17000-e8a17fff : /amba/gpio@e8a17000
+e8a18000-e8a18fff : /amba/gpio@e8a18000
+  e8a18000-e8a18fff : /amba/gpio@e8a18000
+e8a19000-e8a19fff : /amba/gpio@e8a19000
+  e8a19000-e8a19fff : /amba/gpio@e8a19000
+e8a1a000-e8a1afff : /amba/gpio@e8a1a000
+  e8a1a000-e8a1afff : /amba/gpio@e8a1a000
+e8a1b000-e8a1bfff : /amba/gpio@e8a1b000
+  e8a1b000-e8a1bfff : /amba/gpio@e8a1b000
+e8a1c000-e8a1cfff : /amba/gpio@e8a1c000
+  e8a1c000-e8a1cfff : /amba/gpio@e8a1c000
+e8a1f000-e8a1ffff : /amba/gpio@e8a1f000
+  e8a1f000-e8a1ffff : /amba/gpio@e8a1f000
+e8a20000-e8a20fff : /amba/gpio@e8a20000
+  e8a20000-e8a20fff : /amba/gpio@e8a20000
+e8dc0000-e8ddffff : /ivp_smmu@e8dc0000
+ec031000-ec031fff : /amba/funnel@2,ec031000
+  ec031000-ec031fff : /amba/funnel@2,ec031000
+ec033000-ec033fff : /amba/etr@0,ec033000
+ec036000-ec036fff : /amba/etb@2,ec036000
+  ec036000-ec036fff : /amba/etb@2,ec036000
+ec801000-ec801fff : /amba/funnel@0,ec801000
+  ec801000-ec801fff : /amba/funnel@0,ec801000
+ec802000-ec802fff : /amba/etb@0,ec802000
+  ec802000-ec802fff : /amba/etb@0,ec802000
+ecc40000-ecc40fff : /amba/etm@0,ecc40000
+  ecc40000-ecc40fff : /amba/etm@0,ecc40000
+ecd40000-ecd40fff : /amba/etm@1,ecd40000
+  ecd40000-ecd40fff : /amba/etm@1,ecd40000
+ece40000-ece40fff : /amba/etm@2,ece40000
+  ece40000-ece40fff : /amba/etm@2,ece40000
+ecf40000-ecf40fff : /amba/etm@3,ecf40000
+  ecf40000-ecf40fff : /amba/etm@3,ecf40000
+ed001000-ed001fff : /amba/funnel@1,ed001000
+  ed001000-ed001fff : /amba/funnel@1,ed001000
+ed002000-ed002fff : /amba/etb@1,ed002000
+  ed002000-ed002fff : /amba/etb@1,ed002000
+ed440000-ed440fff : /amba/etm@4,ed440000
+  ed440000-ed440fff : /amba/etm@4,ed440000
+ed540000-ed540fff : /amba/etm@5,ed540000
+  ed540000-ed540fff : /amba/etm@5,ed540000
+ed640000-ed640fff : /amba/etm@6,ed640000
+  ed640000-ed640fff : /amba/etm@6,ed640000
+ed740000-ed740fff : /amba/etm@7,ed740000
+  ed740000-ed740fff : /amba/etm@7,ed740000
+fdf01000-fdf01fff : /amba/uart@fdf01000
+  fdf01000-fdf01fff : /amba/uart@fdf01000
+fdf02000-fdf02fff : /amba/uart@fdf02000
+  fdf02000-fdf02fff : /amba/uart@fdf02000
+fdf03000-fdf03fff : /amba/uart@fdf03000
+  fdf03000-fdf03fff : /amba/uart@fdf03000
+fdf05000-fdf05fff : /amba/uart@fdf05000
+  fdf05000-fdf05fff : /amba/uart@fdf05000
+fdf30000-fdf30fff : /peripherals/dma@fdf30000
+ff031000-ff031fff : /ipf1@E0472000
+ff040000-ff04ffff : /psam1@ff040000
+ff10c100-ff1fffff : /hisi_usb@ff200000/dwc3@ff100000
+ff37e000-ff37e017 : pinctrl-single
+ff37e800-ff37e817 : pinctrl-single
+ff37f000-ff37ffff : /dwmmc1@FF37F000
+ff3b0000-ff3b0fff : /ufs@FF3b0000
+ff3b1000-ff3b1fff : /ufs@FF3b0000
+ff3b3000-ff3b3fff : /amba/spi@ff3b3000
+  ff3b3000-ff3b3fff : ssp-pl022
+ff3b4000-ff3b4fff : /amba/gpio@ff3b4000
+  ff3b4000-ff3b4fff : /amba/gpio@ff3b4000
+ff3b5000-ff3b5fff : /amba/gpio@ff3b5000
+  ff3b5000-ff3b5fff : /amba/gpio@ff3b5000
+ff3b6000-ff3b602f : pinctrl-single
+ff3b6800-ff3b682f : pinctrl-single
+ff3fd000-ff3fd017 : pinctrl-single
+ff3fd800-ff3fd817 : pinctrl-single
+ff3ff000-ff3fffff : /dwmmc2@FF3FF000
+ffd70000-ffd70fff : /amba/spi@ffd70000
+  ffd70000-ffd70fff : ssp-pl022
+ffd74000-ffd74fff : /amba/uart@ffd74000
+  ffd74000-ffd74fff : /amba/uart@ffd74000
+ffd77000-ffd77fff : /peripherals/dma@ffd77000
+fff0b000-fff0bfff : /amba/gpio@fff0b000
+  fff0b000-fff0bfff : /amba/gpio@fff0b000
+fff0c000-fff0cfff : /amba/gpio@fff0c000
+  fff0c000-fff0cfff : /amba/gpio@fff0c000
+fff0d000-fff0dfff : /amba/gpio@fff0d000
+  fff0d000-fff0dfff : /amba/gpio@fff0d000
+fff0e000-fff0efff : /amba/gpio@fff0e000
+  fff0e000-fff0efff : /amba/gpio@fff0e000
+fff0f000-fff0ffff : /amba/gpio@fff0f000
+  fff0f000-fff0ffff : /amba/gpio@fff0f000
+fff10000-fff10fff : /amba/gpio@fff10000
+  fff10000-fff10fff : /amba/gpio@fff10000
+fff11000-fff110a7 : pinctrl-single
+fff11800-fff1187b : pinctrl-single
+fff1187c-fff118b7 : pinctrl-sec
+fff14000-fff14fff : /timer@fff14000
+fff1d000-fff1dfff : /amba/gpio@fff1d000
+  fff1d000-fff1dfff : /amba/gpio@fff1d000
+fff32000-fff32fff : /amba/uart@fff32000
+  fff32000-fff32fff : /amba/uart@fff32000
+fff34000-fff34fff : fff34000.pmic
+fff35000-fff35fff : fff35000.regulator_ip
+200000000-21fffffff : System RAM
+
